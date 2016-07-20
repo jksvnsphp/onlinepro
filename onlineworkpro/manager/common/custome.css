@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* errror massage */
+.error{color: #FF3100;}
+/* End errror massage */
+
+/********************************Master calender css******************************/
+.calander-data
+{
+border:1px solid #ccc;
+margin-left:10px;
+padding:10px;
+background:#fafafa;
+}
+
+.day-row {
+    width: 100%;
+    float: center;
+    clear: both;
+}
+.day-row > div.green-bg, .day-row > div.red-bg, .day-row > div.grey-bg {
+    float: left;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+   
+    border: solid 1px #fff; 
+}
+.green-bg{
+	background: #008000;
+	 color: #fff;
+}
+.red-bg{
+	background: #f00;
+	 color: #fff;
+}
+.grey-bg{
+	background: #ccc;	
+	color: #f00;
+}
+.calender-header{
+	width: 100%;
+}
+.calender-header > div{
+	text-align: center;
+	width: 28%;
+	float: left;
+	font-weight: bold;
+	padding: 20px 0;
+	font-size: 20px;
+}
+/********************************End Master calender css******************************/

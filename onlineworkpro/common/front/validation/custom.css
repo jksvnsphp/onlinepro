@@ -1,0 +1,71 @@
+#signupForm label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 10px;	
+}
+
+#hall_form label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 10px;
+}
+
+#notowner_form label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 10px;
+}
+
+#signup_form label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 10px;
+}
+
+#blog_form label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 15px;
+}
+
+.error_vendor {
+    color: #FB3A3A;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+	font-weight: normal;
+    font-size: 10px;
+}
+
+
+
+input{border:1px solid black;}
+input.checkbox{border:none}
+input:focus{border:1px solid red;}
+input.error{border:1px solid red;}
+form.cmxform label.error,label.error{color:red;}
+.news_letter label{display: inherit; float: left;}
+.news_letter >  h5 {color: #555;  float: left; font-size: 11px; line-height: 18px; margin: 5px 0 0 5px; width: 94%; }
+.form-group.news_letter {float: left; margin: 0 0 10px;  width: 100%;} 
+
+
