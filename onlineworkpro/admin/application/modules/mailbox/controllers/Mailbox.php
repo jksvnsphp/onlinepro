@@ -10,7 +10,7 @@ class Mailbox extends MY_Controller {
 
 	public function index(){
 		$data['get_mailbox'] = $this->Mailbox_model->getNewsletter();
-		
+		$data['get_user'] = $this->Mailbox_model->getUsers();
 		
 		$this->form_validation->set_rules('from_email', 'From email', 'trim|required|valid_email');
 		$this->form_validation->set_rules('reply_email', 'Reply', 'trim|required|valid_email');

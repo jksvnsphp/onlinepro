@@ -26,9 +26,20 @@
 	<div class="form-group">
 	<label class="col-md-2 control-label">Select subscriber</label>
 	<div class="col-md-7">	
-	<select name="email[]" id="email" class="form-control" multiple="multiple" required >
+	<select name="email[]" id="email" class="form-control" multiple="multiple"  >
 			<?php foreach($get_mailbox as $mailbox){ ?>
 			<option value="<?php echo $mailbox['email']; ?>"><?php echo $mailbox['email']; ?></option>
+			<?php }?> 
+		</select>	
+	</div>
+	</div>
+    
+    <div class="form-group">
+	<label class="col-md-2 control-label">Select sponcer</label>
+	<div class="col-md-7">	
+	<select name="email[]" id="email" class="form-control" multiple="multiple"  >
+			<?php foreach($get_user as $mailuser){ ?>
+			<option value="<?php echo $mailuser['email']; ?>"><?php echo $mailuser['email']; ?></option>
 			<?php }?> 
 		</select>	
 	</div>

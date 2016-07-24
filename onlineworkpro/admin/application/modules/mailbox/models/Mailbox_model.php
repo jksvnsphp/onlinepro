@@ -21,4 +21,16 @@ class Mailbox_model extends CI_Model {
 			return false;
 		}
 	}
+	
+	public function getUsers(){
+		$this->db->select('*');
+		$this->db->where('is_deleted',0);
+		$query = $this->db->get(USERS);
+		if($query){
+			return $query->result_array();
+		}else{
+			return false;
+		}
+	}
+	
 }	
