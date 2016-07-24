@@ -51,6 +51,13 @@
 		</li>	
 
 	
+		 <li class="treeview">
+		<a href=""><i class="fa fa-envelope"></i><span>Newsletter</span><i class="fa fa-angle-left pull-right"></i></a>
+		  <ul class="treeview-menu">
+			<li><a href="<?php echo site_url('subscriber'); ?>"><i class="fa fa-circle-o"></i> Subscriber</a></li>
+			<li><a href="<?php echo site_url('mailbox'); ?>"><i class="fa fa-circle-o"></i>Send Mail To Subscriber </a></li>
+			 </ul>			
+		</li>
 		
        
        					
